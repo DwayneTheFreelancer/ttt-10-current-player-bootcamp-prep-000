@@ -7,10 +7,13 @@ def display_board(board)
 end
 
 def turn_count(board) 
- display_board(board)
+ count = 0
  board.each do |token|
-    return token
+    if token == "X" || token == "O"
+      count += 1
+    end
  end
+  count
 end
 
 def current_player()
