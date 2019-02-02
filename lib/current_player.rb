@@ -6,10 +6,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def current_player()
-  
-end
-
 def turn_count(board) 
  board.each do ||
+end
+
+def current_player()
+  
 end
