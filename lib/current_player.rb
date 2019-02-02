@@ -7,7 +7,9 @@ def display_board(board)
 end
 
 def turn_count(board) 
- board.each do ||
+ board.each do |token|
+   puts token
+ end
 end
 
 def current_player()
