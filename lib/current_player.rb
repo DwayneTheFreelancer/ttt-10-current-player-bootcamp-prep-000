@@ -9,7 +9,7 @@ end
 def turn_count(board) 
  display_board(board)
  board.each do |token|
-    return ""token
+    return token
  end
 end
 
